@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Start a flask web app
-"""
+"""Start a flask web application"""
 
 from flask import Flask
 app = Flask(__name__)
@@ -8,8 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_flask():
-    """Return string when route queried
-    """
+    """Return str"""
     return 'Hello HBNB!'
 
 if __name__ == '__main__':

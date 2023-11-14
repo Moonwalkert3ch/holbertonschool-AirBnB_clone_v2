@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Start web application
-"""
+"""Start web application"""
 
 
 from flask import Flask
@@ -9,15 +8,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_hbnb():
-    """Return string
-    """
+    """Return str"""
     return 'Hello HBNB!'
 
 
 @app.route('/hbnb')
 def hbnb():
-    """Return string
-    """
+    """Return str"""
     return 'HBNB'
 
 
