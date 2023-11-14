@@ -3,8 +3,6 @@
 
 from flask import Flask, render_template
 
-app.jinja_env.trim_blocks = True
-app.jinja_env.lstrip_blocks = True
 
 app = Flask(__name__)
 
