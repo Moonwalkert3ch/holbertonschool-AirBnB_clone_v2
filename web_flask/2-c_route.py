@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Start web application
-"""
+"""Start web application"""
 
 from flask import Flask
 app = Flask(__name__)
@@ -8,23 +7,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    """Return string
-    """
     return 'Hello HBNB!'
 
 
 @app.route('/hbnb')
 def hbnb():
-    """Return string when route queried
-    """
     return 'HBNB'
 
 
 @app.route('/c/<text>')
 def fun_with_c(text):
-    """Return reformatted text
-    """
-    return 'C ' + text.replace('_', ' ')
+        return 'C ' + text.replace('_', ' ')
 
 
 if __name__ == '__main__':

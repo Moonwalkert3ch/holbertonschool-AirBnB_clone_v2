@@ -7,26 +7,22 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    """Return str"""
     return 'Hello HBNB!'
 
 
 @app.route('/hbnb')
 def hbnb():
-    """Return str"""
     return 'HBNB'
 
 
 @app.route('/c/<text>')
 def fun_with_c(text):
-    """Return text"""
     return 'C ' + text.replace('_', ' ')
 
 
 @app.route('/python/')
 @app.route('/python/<text>')
 def python_text(text='is cool'):
-    """Reformat text"""
     return 'Python ' + text.replace('_', ' ')
 
 
