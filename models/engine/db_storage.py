@@ -59,7 +59,7 @@ class DBStorage:
         self.__session.commit()
 
     def delete(self, obj=None):
-        """delete an eobject in the table"""
+        """delete an object in the table"""
         if obj:
             self.session.delete(obj)
 
