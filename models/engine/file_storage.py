@@ -50,4 +50,4 @@ class FileStorage:
             pass
 
     def close(self):
-        return self.return()
+        return self.reload()
