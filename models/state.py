@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines the State class"""
-from os import getenv
+from os import environ
 import models
 from models.base_model import BaseModel, Base
 from models.city import City
@@ -14,7 +14,7 @@ class State(BaseModel, Base):
     name = Column(String(128), nullable=False)
     cities = relationship("City", backref="state", cascade="delete")
 
-    if getenv("HBNB_TYPE_STORAGE") != "db":
+    if environ("HBNB_TYPE_STORAGE") != "db":
         @property
         def cities(self):
             """Retrieve list of related cities"""
