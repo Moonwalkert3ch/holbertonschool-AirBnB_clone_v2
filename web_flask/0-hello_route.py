@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Start a flask web application"""
+"""Start a flask web application on 0.0.0.0:5000"""
 
 from flask import Flask
 app = Flask(__name__)
