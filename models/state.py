@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Defines the State class"""
-import models
 from os import getenv
+import models
 from models.base_model import BaseModel, Base
 from models.city import City
 from sqlalchemy import Column, String
