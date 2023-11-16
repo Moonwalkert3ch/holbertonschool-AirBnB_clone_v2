@@ -1,22 +1,15 @@
-Resources Read or watch:
-Resources
-Read or watch:
+## Resources Read or watch:
 
-What is a Web Framework?
-A Minimal Application
-Routing (except “HTTP Methods”)
-Rendering Templates
-Synopsis
-Variables
-Comments
-Whitespace Control
-List of Control Structures (read up to “Call”)
-Flask
-Jinja
-Learning Objectives
+## Resources
+##Read or watch:
+
+## What is a Web Framework?
+
+## A Minimal Application
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+## General
 What is a Web Framework
 How to build a web framework with Flask
 How to define routes in Flask
