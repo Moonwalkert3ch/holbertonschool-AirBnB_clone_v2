@@ -3,8 +3,9 @@
 import os
 from models import storage
 from flask import Flask, render_template
-
 from flask_sqlalchemy import SQLAlchemy
+
+from sqlalchemy.sql import func
 
 app = Flask(__name__)
 
