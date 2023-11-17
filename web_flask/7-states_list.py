@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """Starts a Flask web application"""
+import os
 from models import storage
 from flask import Flask, render_template
+
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
